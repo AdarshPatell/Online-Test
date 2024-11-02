@@ -1,0 +1,93 @@
+.Container{
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.Container h1{
+    font-size: 20px;
+}
+.Container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+.Container h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.Container ul li{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Container button{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Container .index{
+    margin: auto;
+    font-size: 10px;
+}
+.Container .correct{
+    background: rgb(113, 170, 118);
+    border-color: rgb(103, 195, 103);
+
+}
+.Container .wrong{
+    background: rgb(188, 124, 124);
+    border-color:red;
+}
+.Submitted{
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    color: rgb(6, 6, 8);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.Submitted h1{
+    font-size: 40px;
+}
+.Container .header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.Container .header button{
+    border: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.day{
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+}
+.night{
+    margin-bottom: 0;
+    background-color: white;
+    color: rgb(10, 10, 10);
+}
